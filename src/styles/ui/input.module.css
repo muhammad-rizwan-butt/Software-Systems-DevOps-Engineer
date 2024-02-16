@@ -1,0 +1,19 @@
+.textfield {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  font-family: var(--text);
+}
+.textfield_label {
+  font-family: var(--heading);
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+.textfield_error {
+  color: var(--error);
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: var(--text);
+}

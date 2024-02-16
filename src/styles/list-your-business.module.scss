@@ -1,0 +1,280 @@
+.main__container {
+  .banner__seciton {
+    background-color: #12275f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 500px;
+
+    .banner__heading {
+      font-size: 48px;
+      font-weight: 700;
+
+      @media (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+    .banner__link {
+      background-color: var(--primary);
+      color: white;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  }
+  .weOffer__container {
+    padding: 60px 0px 40px 0px;
+    background-image: url("../../public/imgs/dot-bg-mono.jpg");
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #fff;
+    position: relative;
+
+    @media (max-width: 768px) {
+      padding: 30px 0px 20px;
+    }
+    .weOffer__overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #ffffff;
+      opacity: 0.91;
+    }
+    .weOffer__innercontainer {
+      max-width: 1140px;
+      margin: auto;
+      z-index: 1040;
+      position: relative;
+      padding: 20px;
+
+      .offer_heading {
+        font-size: 48px;
+        @media (max-width: 768px) {
+          font-size: 30px;
+        }
+      }
+      .offer__text {
+        font-size: 16px;
+        max-width: 600px;
+        margin: auto;
+        font-weight: 300;
+      }
+      .about__us {
+        .about__us__heading {
+          font-size: 32px;
+          margin-bottom: 40px;
+          @media (max-width: 768px) {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+        }
+        .about__us__text {
+          margin: 0px;
+          font-weight: 300;
+        }
+        .aboutus__list {
+          margin-top: 20px;
+          .aboutus__list__item {
+            padding: 10px 5px;
+
+            &::before {
+              content: "\2713";
+              color: white;
+              font-size: 13px;
+              background: var(--primary);
+              padding: 2px 6px;
+              border-radius: 50%;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+      .about_us__image {
+        img {
+          max-width: 420px;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .benefits__container {
+    padding: 96px 0px;
+    @media (max-width: 768px) {
+      padding: 45px 0px;
+    }
+    .innerContainer {
+      max-width: 1140px;
+      margin: auto;
+      padding: 20px;
+    }
+    .benifitsText__innercontainer {
+      .heading {
+        font-size: 48px;
+        margin-bottom: 20px;
+        @media (max-width: 768px) {
+          font-size: 30px;
+        }
+      }
+      .text {
+        font-size: 16px;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+      }
+    }
+    .benefits__card__box {
+      .benefits__card {
+        padding: 30px 40px;
+        border-radius: 4px;
+        border: 1px solid #eeeeee;
+        background-color: white;
+        transition: box-shadow 0.3s;
+        &:hover {
+          box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.14);
+        }
+
+        .card__content {
+          .card__heading {
+            font-size: 24px;
+            color: var(--primary);
+          }
+        }
+      }
+    }
+  }
+  .faqs__container {
+    padding: 60px 0px 40px 0px;
+    background-image: url("../../public/imgs//dot-bg-mono.jpg");
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #fff;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #ffffff;
+      opacity: 0.91;
+    }
+    @media (max-width: 768px) {
+      padding: 30px 0px 20px;
+    }
+    .inner__container {
+      max-width: 1140px;
+      margin: auto;
+      z-index: 1040;
+      position: relative;
+      padding: 20px;
+      .contact__link {
+        background-color: #818a91;
+        font-size: 15px;
+        padding: 12px 24px;
+        border-radius: 3px;
+        color: #fff;
+        fill: #fff;
+        text-align: center;
+      }
+      .accordion__container {
+        .accordion__box {
+          .accordion__header {
+            button {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+  .getStarted__container {
+    padding: 60px 0px;
+    background-image: url("../../public/imgs/dot-bg-mono-1.jpeg");
+    background-position: bottom center;
+    background-size: cover;
+    position: relative;
+    &::after {
+      content: "";
+      background-color: transparent;
+      background-image: linear-gradient(300deg, #419c3c 0%, #12275f 100%);
+      opacity: 0.9;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+    @media (max-width: 768px) {
+      padding: 30px 0px;
+    }
+    .inner__container {
+      max-width: 1140px;
+      width: 100%;
+      margin: auto;
+      padding: 40px 40px 40px 40px;
+      background-image: linear-gradient(300deg, #419c3c 0%, #12275f 100%);
+      position: relative;
+      z-index: 1040;
+
+      @media (max-width: 768px) {
+        padding: 20px;
+      }
+      .getStarted_text__box {
+        .text__box {
+          .heading {
+            font-size: 48px;
+            font-weight: 700;
+            @media (max-width: 748px) {
+              font-size: 30px;
+            }
+          }
+          .text {
+            font-size: 17px;
+            font-weight: 300;
+          }
+        }
+        .started__link {
+          font-size: 15px;
+          font-weight: 600;
+          text-transform: uppercase;
+          background-color: var(--primary);
+          border-radius: 4px 4px 4px 4px;
+          padding: 20px 50px 20px 50px;
+          color: white;
+          @media (max-width: 768px) {
+            padding: 15px 25px;
+          }
+        }
+      }
+    }
+  }
+  .signup__container {
+    padding: 90px 0px;
+    background-color: white;
+    .inner__container {
+      max-width: 1140px;
+      width: 100%;
+      margin: auto;
+      padding: 0px 20px;
+      .signup__text__box {
+        .signup__text {
+          font-size: 48px;
+          color: var(--primary);
+          font-weight: bold;
+          @media (max-width: 768px) {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.location_box {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 8px 12px rgba(51, 65, 80, 0.06),
+    0 14px 44px rgba(51, 65, 80, 0.11);
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  overflow-y: auto;
+  min-width: 350px;
+
+  .madule {
+    // border-bottom: 1px solid rgb(148, 146, 146);
+    padding: 10px 15px;
+    input.search_bar {
+      display: block;
+      font-size: 13px;
+      font-weight: 300;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding: 0px;
+      padding-left: 20px;
+      width: 100%;
+      border: 0;
+      outline: 0;
+      background-image: url("/imgs/search_icon.svg");
+      background-repeat: no-repeat;
+      background-size: 14px;
+      background-position: 0;
+    }
+  }
+  .airport_list {
+    max-height: 300px;
+    overflow-y: auto;
+    border-top: 1px solid #dbdde0;
+    @media (max-width: 592px) {
+      max-height: 100%;
+    }
+    .country_names {
+      display: flex;
+      align-items: center;
+      padding: 8px 15px;
+      .country_city_name {
+        flex-basis: 80%;
+        .country_name_heading {
+          color: var(--primary);
+          font-size: 14px;
+          line-height: 18px;
+          font-weight: 600;
+          text-transform: capitalize;
+          @media (max-width: 400px) {
+            font-size: 12px;
+          }
+        }
+        .airport_name_headings {
+          font-size: 12px;
+          line-height: 14px;
+          font-weight: 400;
+          color: #419c3c;
+        }
+      }
+
+      .city_code_heading {
+        color: #419c3c87;
+        flex-basis: 20%;
+        text-align: right;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        @media (max-width: 400px) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  @media (max-width: 592px) {
+    position: static;
+    margin-bottom: 100px;
+    min-width: 250px;
+  }
+}

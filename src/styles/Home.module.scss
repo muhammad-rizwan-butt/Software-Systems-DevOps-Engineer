@@ -1,0 +1,77 @@
+.home {
+  .hero_banner {
+    position: relative;
+    width: 100%;
+    min-height: 650px;
+    margin-bottom: 4rem;
+    background: url("/imgs/homepage-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .searchtab_nav {
+      position: relative;
+      z-index: 1;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0, 117, 255, 0.0898711);
+      border-radius: 10px;
+      justify-content: space-evenly;
+      padding: 0 60px;
+      margin: auto;
+      width: 80%;
+      @media (max-width: 592px) {
+        padding: 0 15px;
+        width: 90%;
+      }
+      .tab_btn {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        line-height: 26px;
+        font-weight: 600;
+        padding: 15px 15px;
+        min-width: 30px;
+        border-bottom: 2px solid transparent;
+        color: var(--primary);
+        &.selected {
+          border-bottom: 2px solid var(--secondary);
+        }
+        @media (max-width: 592px) {
+          flex-direction: column;
+          gap: 5px;
+          font-size: 14px;
+        }
+      }
+    }
+    .searchtab_panel {
+      position: relative;
+      background: #fff;
+      box-shadow: 0 20px 100px 10px rgba(24, 33, 77, 0.05);
+      border-radius: 20px;
+      padding: 50px 30px 40px;
+      margin-top: -25px;
+      @media (max-width: 592px) {
+        padding: 50px 15px 40px;
+      }
+    }
+  }
+  .prefooter {
+    background-image: url(https://siyaahat.pk/wp-content/uploads/2023/01/Newsletter-1024x295-1.jpg);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 70px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .prefooter__inner {
+      max-width: 650px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.blog__Card__box {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px;
+  transition: box-shadow 0.5s ease-in-out;
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .blog__Card__Img {
+    img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+  }
+  .blogCard__content {
+    padding: 20px 10px;
+
+    .blogCard__heading {
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    .blogCard__category {
+      font-size: 12px;
+    }
+    .blogCard__text {
+      font-size: 14px;
+      text-transform: capitalize;
+      color: gray;
+      font-weight: 300;
+      .blogCard__link {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+}

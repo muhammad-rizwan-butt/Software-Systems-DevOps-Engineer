@@ -1,0 +1,82 @@
+.coupon_card {
+  background: linear-gradient(
+    135deg,
+    rgb(65, 156, 60, 1),
+    rgb(15, 200, 30, 0.5)
+  );
+  color: #fff;
+  text-align: center;
+  padding: 40px 80px;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+  @media (max-width: 592px) {
+    padding: 20px 10px;
+    max-width: 90%;
+    margin-inline: auto;
+    h3 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .logo {
+    width: 80px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .coupon_card h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .coupon_card p {
+    font-size: 15px;
+  }
+  .coupon_row {
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+    width: fit-content;
+    @media (max-width: 592px) {
+      margin: 15px auto;
+    }
+  }
+  #cpnCode {
+    border: 1px dashed #fff;
+    padding: 10px 20px;
+    border-right: 0;
+    @media (max-width: 592px) {
+      font-size: 13px;
+      padding: 8px;
+    }
+  }
+  #cpnBtn {
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 10px 20px;
+    color: #7158fe;
+    cursor: pointer;
+    @media (max-width: 592px) {
+      font-size: 13px;
+      padding: 8px;
+    }
+  }
+  .circle1,
+  .circle2 {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .circle1 {
+    left: -25px;
+  }
+  .circle2 {
+    right: -25px;
+  }
+}

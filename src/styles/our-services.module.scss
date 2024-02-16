@@ -1,0 +1,98 @@
+.ourServices___container {
+  .banner___container {
+    padding: 150px 0px;
+    background: var(--primary);
+    background-size: cover;
+    text-align: center;
+    @media (max-width: 768px) {
+      padding: 75px 0px;
+    }
+    .banner__heading {
+      font-size: 48px;
+      color: white;
+      font-weight: 700;
+      @media (max-width: 592px) {
+        font-size: 30px;
+      }
+    }
+    .banner___text {
+      color: white;
+      font-size: 18px;
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+  }
+  .ourProduct___container {
+    padding: 80px 0px;
+    text-align: center;
+    .heading {
+      font-size: 48px;
+      font-weight: 700;
+      @media (max-width: 592px) {
+        font-size: 30px;
+      }
+    }
+    .ourProduct__card {
+      padding: 40px;
+      box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+      border-radius: 4px;
+      .card__imageWrapper {
+        background-color: #419c3c21;
+        width: 90px;
+        height: 90px;
+        margin: auto;
+        display: grid;
+        place-items: center;
+        border-radius: 2px;
+      }
+      .card__content {
+        margin-top: 30px;
+        .card__heading {
+          font-size: 24px;
+          font-weight: 700;
+        }
+        .card__text {
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .ourGoal__container {
+    padding: 60px 0px;
+    background-image: url("../../public/imgs/dot-bg-mono-1.jpeg");
+    background-position: bottom center;
+    background-size: cover;
+    position: relative;
+    &::after {
+      content: "";
+      background-color: transparent;
+      background-image: linear-gradient(300deg, #419c3c 0%, #12275f 100%);
+      opacity: 0.9;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+    .ourGoal___heading {
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      position: relative;
+      z-index: 1050;
+      color: white;
+      @media (max-width: 592px) {
+        font-size: 30px;
+      }
+    }
+    .ourGoal__innerBox_text {
+      position: relative;
+      z-index: 1050;
+      color: white;
+      text-align: center;
+    }
+  }
+}

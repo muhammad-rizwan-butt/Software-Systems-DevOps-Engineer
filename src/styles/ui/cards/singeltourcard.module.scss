@@ -1,0 +1,55 @@
+.tour_card {
+  gap: 12px;
+  .tour_location_icon {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+    .tour_icon_location {
+      width: 50px;
+    }
+
+    .tour_time {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+  }
+  // .tour_location_icon {
+  // }
+
+  .tour_list_details {
+    padding: 20px;
+  }
+  .tour_location_icon2 {
+    border-radius: 8px;
+  }
+  .tour_list_islamabad {
+    list-style: disc;
+    margin-block: 3px;
+    font-size: 13px;
+  }
+
+  .tour_location_icon_islamabad {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 14px;
+    margin-block: 10px;
+  }
+  .heading_islamabad {
+    color: var(--text-secondary);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .location_icon {
+    width: 14px;
+  }
+  .tour_city_img {
+    width: 100%;
+// height: 600px;
+    max-height: 260px;
+
+    border-radius: 8px;
+  }
+}

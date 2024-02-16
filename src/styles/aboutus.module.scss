@@ -1,0 +1,150 @@
+.aboutus__container {
+  .aboutUS__banner {
+    padding: 60px 0px;
+    background-color: var(--primary);
+
+    .heading__banner {
+      font-size: 48px;
+      text-align: center;
+      font-weight: 700;
+      color: white;
+    }
+    .banner__text {
+      color: white;
+      text-align: center;
+      font-size: 17px;
+      font-weight: 300;
+    }
+  }
+  .portal__box {
+    padding: 80px 0px;
+    @media (max-width: 768px) {
+      padding: 40px 0px;
+    }
+    .portal__box__heading {
+      font-size: 48px;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 50px;
+      @media (max-width: 768px) {
+        font-size: 36px;
+        margin-bottom: 25px;
+      }
+    }
+    .portal__text {
+      font-size: 17px;
+      font-weight: 300;
+    }
+  }
+  .book_us__box {
+    padding: 50px 0px;
+    background-image: url("../../public/imgs//dot-bg-mono.jpg");
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #fff;
+    position: relative;
+    @media (max-width: 768px) {
+      padding: 25px 0px;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #ffffff;
+      opacity: 0.91;
+    }
+    @media (max-width: 992px) {
+      background: none;
+    }
+    .bookus__heading {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 50px;
+      text-align: center;
+      position: relative;
+      z-index: 1050;
+      @media (max-width: 768px) {
+        font-size: 36px;
+        margin-bottom: 25px;
+      }
+    }
+    .bookUS__card {
+      padding: 0px 15px;
+      position: relative;
+      z-index: 1050;
+      .bookus__card__img {
+        height: 100px;
+        width: 100px;
+        background-color: #419c3c21;
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+        border-radius: 4px;
+      }
+      .bookUS__card__content {
+        margin-top: 30px;
+        .bookUS__card_heading {
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 10px;
+        }
+        .bookUS__card__text {
+          color: #4d4d4d;
+        }
+      }
+    }
+  }
+  .work__container {
+    padding: 50px 0px;
+    background-image: url("../../public/imgs/dot-bg-mono-1.jpeg");
+    background-position: bottom center;
+    background-size: cover;
+    position: relative;
+    &::after {
+      content: "";
+      background-color: transparent;
+      background-image: linear-gradient(300deg, #419c3c 0%, #12275f 100%);
+      opacity: 0.9;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+    .work__heading {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-align: center;
+      position: relative;
+      z-index: 1050;
+      color: #fff;
+      @media (max-width: 768px) {
+        font-size: 36px;
+        margin-bottom: 25px;
+      }
+    }
+    .work__card {
+      padding: 0px 15px;
+      position: relative;
+      z-index: 1050;
+      color: #fff;
+      .work__card__number {
+        font-size: 64px;
+        font-weight: 700;
+        @media (max-width: 768px) {
+          font-size: 40px;
+          margin-bottom: 25px;
+        }
+      }
+      .work__card__text {
+      }
+    }
+  }
+}

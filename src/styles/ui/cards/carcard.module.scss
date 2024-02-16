@@ -1,0 +1,94 @@
+.hotel_card {
+    background-color: #fff;
+    // border-radius: 4px;
+    // border-right: 1px solid #ccc;
+    // border-left: 1px solid #ccc;
+    // border-top: 1px solid #ccc;
+
+    // box-shadow: 0 8px 12px rgba(51, 65, 80, 0.06),
+    //   0 14px 44px rgba(51, 65, 80, 0.11);
+    cursor: pointer;
+    // &:hover {
+    //   background-color: rgb(230, 230, 230, 0.5);
+    // }
+  
+    .hotline {
+      background-color: #419c3c;
+      color: #fff;
+      border: 1px solid #419c3c;
+      width: 80px;
+      height: 30px;
+      border-radius: 5px 5px 5px 5px;
+      margin-bottom: 5px;
+      padding: 3px 5px;
+      top: 20px;
+      font-size: 14px;
+      .hotline_img {
+        width: 20px;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+          hue-rotate(93deg) brightness(103%) contrast(103%);
+      }
+    }
+  
+    .remaining {
+      border: 1px solid #419c3c;
+      border-radius: 20px;
+      color: #419c3c;
+      padding: 5px 10px;
+      font-size: 12px;
+      max-width: 170px;
+      display: flex;
+      justify-content: center;
+      font-weight: 600;
+    }
+  }
+  .underline_checkbox {
+    border-bottom: 1px solid #dbdde0;
+    margin-block: 20px;
+  }
+  .car_logo{
+    width: 64px;
+    height: 32px;
+  }
+  .log{
+    height: 20px;
+    width: auto;
+  }
+  .price_amount {
+    font-size: 1.4285714286rem;
+    line-height: 30px;
+    font-weight: 600;
+    color: #3a4856;
+    margin-top: 0;
+  }
+  .price_amount .price_before_discount[data-v-6443285c] {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: var(--primary);
+    position: relative;
+  }
+  .price_amount .price_before_discount[data-v-6443285c]:before {
+    content: "Price for 1 day:";
+    text-decoration: none;
+    display: block;
+    color: #1e1e1e;
+    font-size: 0.8571428571rem;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .price_amount .price_before_discount[data-v-6443285c]:after {
+    content: "";
+    /* border-bottom: 1px solid #419c3c; */
+    /* -webkit-transform: skewY(-8deg); */
+    /* transform: skewY(-8deg); */
+    /* width: 100%; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 70%; */
+  }
+  .price_amount .discount_price[data-v-6443285c] {
+    display: block;
+    margin-left: 10px;
+  }

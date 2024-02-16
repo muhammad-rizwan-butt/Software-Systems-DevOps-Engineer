@@ -1,0 +1,45 @@
+.menubar__container {
+  .menubar_dropdown {
+    .menubar_dropdown_toggle {
+      background: transparent;
+      border: 0px;
+      &::after {
+        display: none;
+      }
+      .profileImage {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .dropdown__menu {
+      width: 200px;
+      padding-block: 0px;
+      .dropdown__menu_item {
+        padding-block: 8px;
+      }
+      .user__info {
+        padding-left: 35px;
+        text-wrap: wrap;
+        padding-block: 15px;
+        border-bottom: 1px solid #e6e6e6;
+        font-size: 12px;
+        font-weight: 600;
+        .image__box {
+          left: 0px;
+          top: 50%;
+          transform: translateY(-50%);
+          .profileImage {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+.vendor__btn {
+  padding: 5px 10px;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 4px;
+}

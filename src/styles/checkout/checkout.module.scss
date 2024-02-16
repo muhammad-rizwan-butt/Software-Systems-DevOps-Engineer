@@ -1,0 +1,168 @@
+.bg{
+    background-color: #ebf0f4;
+padding: 15px 20px;}
+//  padding-bottom: 10px;}
+
+
+ .card {
+    margin: auto;
+    background: white;
+    display:flex;
+    flex-direction: row;
+    
+}
+.debitcard{
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.active{
+    color: var(--primary);
+    font-weight: 600;
+    border-left: 2px solid var(--primary);
+  }
+.leftside {
+    padding: 25px;
+border-right: 1px solid #ccc;
+}
+
+.product {
+    object-fit: cover;
+	width: 20em;
+    height: 20em;
+    border-radius: 100%;
+}
+
+.rightside {
+    background-color: #ffffff;
+    padding: 25px;
+	
+}
+
+// p{
+//     display:block;
+//     font-size: 1.1rem;
+//     font-weight: 400;
+//     margin: .8rem 0;
+// }
+
+.inputbox
+{
+    color:#030303;
+	width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+  outline:none;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+.iconimg{
+  width: 120px;
+}
+.button{
+    background: linear-gradient(
+135deg
+, #419c3c 0%, #c5ecc3 100%);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:100%;
+    letter-spacing: .11rem;
+    outline:none;
+}
+
+.button:hover
+{
+	transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+//------------------------ right blovck----------------
+// timeblock
+.time_block{
+    background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+  }
+  .green_block{
+    background-color: #ecf3fe;
+      padding: 5px 10px;
+      border-radius: 3px;
+  }
+  
+  .time{
+    padding-right: 10px;
+  }
+//   -------------Rightblock -----------------
+.rightblock{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(113 118 116 / 8%);
+    box-shadow: 0 2px 5px 0 rgb(113 118 116 / 8%);
+    overflow: hidden;
+
+    position: sticky;
+    z-index: 8px;
+    top: 88px;
+    
+    }
+    .fare_box{
+      padding: 15px;
+    }
+    .fare_icon{
+      width: 80px;
+    }
+    .fare_header{
+      border-bottom: 1px solid #ebf0f4;
+      padding-bottom: 15px;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .fare_info{
+      padding-bottom: 14px;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+      border-bottom: 1px solid #ebf0f4;
+      background-color: #fff;
+    }
+    .total_price{
+      background-color: #c5ecc3;
+      padding: 12px 18px ;
+      .price_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .text_green{
+          font-weight: 600;
+          color: var(--primary);
+        }
+        .grey_text{
+          color: #486651;
+        }
+      }
+    }

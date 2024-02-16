@@ -1,0 +1,55 @@
+.blog__box {
+  padding: 50px 0px;
+  .signleBlog__grid {
+    .blog__title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 30px;
+    }
+    .blogCard__extra {
+      .date {
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+    .blog__image {
+      width: 100%;
+      max-height: 400px;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .blog__content {
+      padding-top: 20px;
+      .blog__description {
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+  .related__blogs {
+    .related__blogs__heading {
+      padding: 20px 0px;
+      text-align: center;
+      background-color: #f2f2f2;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      color: #666;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-bottom: 2px solid #1e73be;
+      margin-bottom: 30px;
+    }
+    .related__blogs__box {
+      background-color: #f2f2f2;
+      padding: 10px;
+      .related__blog__title {
+        font-size: 14px;
+      }
+      .date {
+        font-size: 12px;
+      }
+    }
+  }
+}

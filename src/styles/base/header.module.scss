@@ -1,0 +1,24 @@
+.header__maincontainer {
+  z-index: 1050;
+  .vendor__btn {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .nav__dropdown {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    a {
+      // padding-left: 0px;
+      color: black;
+      font-weight: 600;
+    }
+    .dropdown__item {
+      color: black;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}

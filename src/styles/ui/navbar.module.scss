@@ -1,0 +1,25 @@
+.navbar__header {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+    0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+    0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+  background-color: white;
+  padding: 15px 0px;
+
+  .menubar__container {
+    .menubar_dropdown {
+      .menubar_dropdown_toggle {
+        background: transparent;
+        border: 0px;
+        &::after {
+          display: none;
+        }
+      }
+      .dropdown__menu {
+        .dropdown__menu_item {
+          padding-block: 10px;
+        }
+      }
+    }
+  }
+}

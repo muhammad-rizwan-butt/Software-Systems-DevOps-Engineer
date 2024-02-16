@@ -1,0 +1,37 @@
+.hotel_card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 12px rgba(51, 65, 80, 0.06),
+      0 14px 44px rgba(51, 65, 80, 0.11);
+    cursor: pointer;
+    // &:hover {
+    //   background-color: rgb(230, 230, 230, 0.5);
+    // }
+    .hotline {
+      background-color: #fd7e14;
+      color: #fff;
+      border: 1px solid #fd7e14;
+      border-radius: 0 5px 5px 0;
+      margin-bottom: 5px;
+      padding: 3px 5px;
+      top: 20px;
+      font-size: 14px;
+      .hotline_img {
+        width: 20px;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+          hue-rotate(93deg) brightness(103%) contrast(103%);
+      }
+    }
+  
+    .remaining {
+      border: 1px solid #f33a3a;
+      border-radius: 20px;
+      color: #f33a3a;
+      padding: 5px 10px;
+      font-size: 12px;
+      max-width: 170px;
+      display: flex;
+      justify-content: center;
+      font-weight: 600;
+    }
+  }

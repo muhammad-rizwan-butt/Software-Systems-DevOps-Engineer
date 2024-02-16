@@ -1,0 +1,186 @@
+.tover_card{
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 8px 12px rgba(51,65,80,.06), 0 0 12px rgba(51,65,80,.06);
+    background-color: #fff;
+   
+
+    .card_img_main{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+   .card_right{
+     .tover_title_starting{
+        display: flex;
+        align-items: center;
+        margin-block: 8px;
+       
+        justify-content: space-between;
+     }
+     .tover_title{
+        color: #1c3c6b;
+    font-size: 1.4285714286rem;
+    margin: 0px;
+    font-weight: 600;
+   
+     }
+     .tover_startin_from{
+        font-size: .8571428571rem;
+        margin: 0px;
+   
+    font-weight: 400;
+    color: #056998;
+     }
+   }
+   .location_title_headings{
+    display: flex;
+    align-items: center;
+    margin-block: 8px;
+    justify-content: space-between;
+
+    .location_icon_headings{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #1c3c6b;
+    font-size: .8571428571rem;
+ 
+    font-weight: 400;
+    }
+   .location_icon{
+    width: 16px;
+    height: 16px;
+   }
+   .location_pkr_headings{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    font-size: .8571428571rem;
+   
+    font-weight: 600;
+   }
+   .pkr_price{
+    font-size: 1.4285714286rem;
+   margin: 0px;
+    font-weight: 600;
+    color: #1c3c6b;
+   }
+   }
+   .cencel_pkr_headings{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    font-size: .8571428571rem;
+    color: #056998;
+    font-weight: 600;
+   }
+   .cencel_perperson_headings{
+    font-size: .8571428571rem;
+    display: flex;
+    margin: 0px;
+    justify-content: end;
+    font-weight: 400;
+    color: #056998;
+   }
+   .tover_time{
+    display: flex;
+    align-items: center;
+    margin-block: 8px;
+    justify-content: space-between;
+    .timers_and_icons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       }
+       .tover_icon_headings{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #1c3c6b;
+    font-size: .8571428571rem;
+  ;
+    font-weight: 400;
+       }
+       .offer_heading{
+        color: #1c3c6b;
+    background-color: #ebf0f4;
+    padding: 4px 12px;
+    font-size: 1rem;
+    margin: 0px;
+    font-weight: 600;
+    border-radius: 3px;
+       }
+   }
+  .cars_air_tover_details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+   .tover_days_headings{
+    color: #1c3c6b;
+    background-color: #ebf0f4;
+    padding: 4px 12px;
+     border-radius: 3px;
+     margin-block: 5px;
+    font-size: .8571428571rem;
+
+    font-weight: 400;
+    .air_time_icon{
+      height: 18px;
+      width: 18px;
+    }
+   }
+
+
+}
+
+
+.information{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #ebf0f4;
+  border-top: 1px solid #dbdde0;
+  color: #1c3c6b;
+  padding: 5px 15px;
+ 
+  .information_heading{
+    margin: 0px;
+    font-size: 14px;
+    color: #1c3c6b;
+  }
+  .information_icon{
+    width: 14px;
+    
+  }
+ }
+ .pkr_price_cencle{
+  margin: 0px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /********************************media qury******************************************/
+ @media (min-width: 768px) {
+  .tover_title{
+    font-size: 14px;
+  }
+}
